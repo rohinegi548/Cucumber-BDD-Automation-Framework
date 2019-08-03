@@ -80,11 +80,11 @@
               "status": "passed"
             },
             "line": 7,
-            "name": "I enter username as \"rohitnegi548@gmail.com\"",
+            "name": "I enter username as \"testusername\"",
             "match": {
               "arguments": [
                 {
-                  "val": "rohitnegi548@gmail.com",
+                  "val": "testusername",
                   "offset": 21
                 }
               ],
@@ -110,11 +110,11 @@
               "status": "passed"
             },
             "line": 9,
-            "name": "I enter password as \"krt#5764\"",
+            "name": "I enter password as \"testpassword\"",
             "match": {
               "arguments": [
                 {
-                  "val": "krt#5764",
+                  "val": "testpassword",
                   "offset": 21
                 }
               ],
@@ -334,11 +334,11 @@
               "status": "passed"
             },
             "line": 26,
-            "name": "I enter username as \"rohitnegi548@gmail.com\"",
+            "name": "I enter username as \"testusername\"",
             "match": {
               "arguments": [
                 {
-                  "val": "rohitnegi548@gmail.com",
+                  "val": "testusername",
                   "offset": 21
                 }
               ],
@@ -364,11 +364,11 @@
               "status": "passed"
             },
             "line": 28,
-            "name": "I enter password as \"krt#5764\"",
+            "name": "I enter password as \"testpassword\"",
             "match": {
               "arguments": [
                 {
-                  "val": "krt#5764",
+                  "val": "testpassword",
                   "offset": 21
                 }
               ],
@@ -507,11 +507,11 @@
               "status": "passed"
             },
             "line": 26,
-            "name": "I enter username as \"rohitnegi548@gmail.com\"",
+            "name": "I enter username as \"testusername\"",
             "match": {
               "arguments": [
                 {
-                  "val": "rohitnegi548@gmail.com",
+                  "val": "testusername",
                   "offset": 21
                 }
               ],
@@ -537,11 +537,11 @@
               "status": "passed"
             },
             "line": 28,
-            "name": "I enter password as \"krt#5764\"",
+            "name": "I enter password as \"testpassword\"",
             "match": {
               "arguments": [
                 {
-                  "val": "krt#5764",
+                  "val": "testpassword",
                   "offset": 21
                 }
               ],
@@ -680,11 +680,11 @@
               "status": "passed"
             },
             "line": 26,
-            "name": "I enter username as \"rohitnegi548@gmail.com\"",
+            "name": "I enter username as \"testusername\"",
             "match": {
               "arguments": [
                 {
-                  "val": "rohitnegi548@gmail.com",
+                  "val": "testusername",
                   "offset": 21
                 }
               ],
@@ -710,11 +710,11 @@
               "status": "passed"
             },
             "line": 28,
-            "name": "I enter password as \"krt#5764\"",
+            "name": "I enter password as \"testpassword\"",
             "match": {
               "arguments": [
                 {
-                  "val": "krt#5764",
+                  "val": "testpassword",
                   "offset": 21
                 }
               ],

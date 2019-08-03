@@ -68,16 +68,16 @@ Session ID: e12418735382b067fa3b8d7302b076e8
                     <title>Then I should see Sign In Page</title>
                 </step>
                 <step start="1558010258379" stop="1558010258556" status="passed">
-                    <name>When I enter username as "rohitnegi548@gmail.com"</name>
-                    <title>When I enter username as "rohitnegi548@gmail.com"</title>
+                    <name>When I enter username as "testusername"</name>
+                    <title>When I enter username as "testusername"</title>
                 </step>
                 <step start="1558010258556" stop="1558010260955" status="passed">
                     <name>And I Click on Continue button</name>
                     <title>And I Click on Continue button</title>
                 </step>
                 <step start="1558010260955" stop="1558010261081" status="passed">
-                    <name>And I enter password as "krt#576420"</name>
-                    <title>And I enter password as "krt#576420"</title>
+                    <name>And I enter password as "testpassword"</name>
+                    <title>And I enter password as "testpassword"</title>
                 </step>
                 <step start="1558010261081" stop="1558010268043" status="passed">
                     <name>And click on login button</name>
@@ -155,8 +155,8 @@ Session ID: e12418735382b067fa3b8d7302b076e8
                     <steps/>
                 </step>
                 <step start="1558010317570" stop="1558010317945" status="passed">
-                    <name>When I enter username as "rohitnegi548@gmail.com"</name>
-                    <title>When I enter username as "rohitnegi548@gmail.com"</title>
+                    <name>When I enter username as "testusername"</name>
+                    <title>When I enter username as "testusername"</title>
                     <attachments/>
                     <steps/>
                 </step>
@@ -167,8 +167,8 @@ Session ID: e12418735382b067fa3b8d7302b076e8
                     <steps/>
                 </step>
                 <step start="1558010320212" stop="1558010320365" status="passed">
-                    <name>And I enter password as "krt#576420"</name>
-                    <title>And I enter password as "krt#576420"</title>
+                    <name>And I enter password as "testpassword"</name>
+                    <title>And I enter password as "testpassword"</title>
                     <attachments/>
                     <steps/>
                 </step>
@@ -226,8 +226,8 @@ Session ID: e12418735382b067fa3b8d7302b076e8
                     <steps/>
                 </step>
                 <step start="1558010352915" stop="1558010353106" status="passed">
-                    <name>When I enter username as "rohitnegi548@gmail.com"</name>
-                    <title>When I enter username as "rohitnegi548@gmail.com"</title>
+                    <name>When I enter username as "testusername"</name>
+                    <title>When I enter username as "testusername"</title>
                     <attachments/>
                     <steps/>
                 </step>
@@ -238,8 +238,8 @@ Session ID: e12418735382b067fa3b8d7302b076e8
                     <steps/>
                 </step>
                 <step start="1558010354415" stop="1558010354538" status="passed">
-                    <name>And I enter password as "krt#576420"</name>
-                    <title>And I enter password as "krt#576420"</title>
+                    <name>And I enter password as "testpassword"</name>
+                    <title>And I enter password as "testpassword"</title>
                     <attachments/>
                     <steps/>
                 </step>
@@ -297,8 +297,8 @@ Session ID: e12418735382b067fa3b8d7302b076e8
                     <steps/>
                 </step>
                 <step start="1558010387224" stop="1558010387413" status="passed">
-                    <name>When I enter username as "rohitnegi548@gmail.com"</name>
-                    <title>When I enter username as "rohitnegi548@gmail.com"</title>
+                    <name>When I enter username as "testusername"</name>
+                    <title>When I enter username as "testusername"</title>
                     <attachments/>
                     <steps/>
                 </step>
@@ -309,8 +309,8 @@ Session ID: e12418735382b067fa3b8d7302b076e8
                     <steps/>
                 </step>
                 <step start="1558010388477" stop="1558010388604" status="passed">
-                    <name>And I enter password as "krt#576420"</name>
-                    <title>And I enter password as "krt#576420"</title>
+                    <name>And I enter password as "testpassword"</name>
+                    <title>And I enter password as "testpassword"</title>
                     <attachments/>
                     <steps/>
                 </step>
