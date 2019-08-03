@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1564864411379" stop="1564864550554" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a Amazon user I should be able to login and logout with valid credentials</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1564864411437" stop="1564864459569" status="broken">
+            <name>Login into the application with valid credentials</name>
+            <title>Login into the application with valid credentials</title>
+            <description type="text"></description>
+            <failure>
+                <message>NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class,'sg-col-4')]/div[@class='sg-col-inner']/div/h5/a"}
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'A303598', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\negiro\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: 87457ddf04dcb99a23faaec0f18c5201
+*** Element info: {Using=xpath, value=//div[starts-with(@class,'sg-col-4')]/div[@class='sg-col-inner']/div/h5/a}</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class,'sg-col-4')]/div[@class='sg-col-inner']/div/h5/a"}
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'A303598', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\negiro\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: 87457ddf04dcb99a23faaec0f18c5201
+*** Element info: {Using=xpath, value=//div[starts-with(@class,'sg-col-4')]/div[@class='sg-col-inner']/div/h5/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at com.cucumberFramework.pageObjects.LoginLogoutPage.enterSearchItemandAddToCart(LoginLogoutPage.java:98)
+	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.i_search_and_add_nd_available_item_to_cart(loginLogoutPageStepDefinitions.java:86)
+	at ✽.Then I search "Macbook pro" and add second available item to cart(src/test/resources/features/login/login_logout.feature:15)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1564864419134" stop="1564864425371" status="passed">
+                    <name>Given I am on the Login page URL "https://www.amazon.in/"</name>
+                    <title>Given I am on the Login page URL "https://www.amazon.in/"</title>
+                </step>
+                <step start="1564864425371" stop="1564864429087" status="passed">
+                    <name>Then I click on sign in button and wait for sign in page</name>
+                    <title>Then I click on sign in button and wait for sign in page</title>
+                </step>
+                <step start="1564864429088" stop="1564864429124" status="passed">
+                    <name>Then I should see Sign In Page</name>
+                    <title>Then I should see Sign In Page</title>
+                </step>
+                <step start="1564864429125" stop="1564864429447" status="passed">
+                    <name>When I enter username as "rohitnegi548@gmail.com"</name>
+                    <title>When I enter username as "rohitnegi548@gmail.com"</title>
+                </step>
+                <step start="1564864429447" stop="1564864430905" status="passed">
+                    <name>And I Click on Continue button</name>
+                    <title>And I Click on Continue button</title>
+                </step>
+                <step start="1564864430906" stop="1564864431121" status="passed">
+                    <name>And I enter password as "krt#576420"</name>
+                    <title>And I enter password as "krt#576420"</title>
+                </step>
+                <step start="1564864431122" stop="1564864436130" status="passed">
+                    <name>And click on login button</name>
+                    <title>And click on login button</title>
+                </step>
+                <step start="1564864436131" stop="1564864436225" status="passed">
+                    <name>Then I am logged in</name>
+                    <title>Then I am logged in</title>
+                </step>
+                <step start="1564864436226" stop="1564864440120" status="passed">
+                    <name>And I clear cart items if any</name>
+                    <title>And I clear cart items if any</title>
+                </step>
+                <step start="1564864440120" stop="1564864445128" status="passed">
+                    <name>Then I choose Electronincs&gt;Headphones and headphones list out</name>
+                    <title>Then I choose Electronincs&gt;Headphones and headphones list out</title>
+                </step>
+                <step start="1564864445128" stop="1564864453836" status="passed">
+                    <name>Then I add first availabe headphone to cart</name>
+                    <title>Then I add first availabe headphone to cart</title>
+                </step>
+                <step start="1564864453836" stop="1564864457107" status="broken">
+                    <name>Then I search "Macbook pro" and add second available item to cart</name>
+                    <title>Then I search "Macbook pro" and add second available item to cart</title>
+                </step>
+                <step start="1564864457107" stop="1564864457109" status="canceled">
+                    <name>Then I Select cart from home and remove the earlier added headphones</name>
+                    <title>Then I Select cart from home and remove the earlier added headphones</title>
+                </step>
+                <step start="1564864457110" stop="1564864457110" status="canceled">
+                    <name>Then I Reduce the Quantity of the macbook pro product to one and proceed to checkout</name>
+                    <title>Then I Reduce the Quantity of the macbook pro product to one and proceed to checkout</title>
+                </step>
+                <step start="1564864457111" stop="1564864457111" status="canceled">
+                    <name>And I Click on Sign out</name>
+                    <title>And I Click on Sign out</title>
+                </step>
+                <step start="1564864457111" stop="1564864457122" status="canceled">
+                    <name>Then I got log out from the application and land on sign in page</name>
+                    <title>Then I got log out from the application and land on sign in page</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="c119fc0f-cce5-4ac0-8499-0cdad18db7c4-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into the application with valid credentials"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="A303598"/>
+                <label name="thread" value="17436@A303598.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1564864459576" stop="1564864490836" status="passed">
+            <name>Searching different products after login</name>
+            <title>Searching different products after login</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1564864464395" stop="1564864470108" status="passed">
+                    <name>Given I am on the Login page URL "https://www.amazon.in/"</name>
+                    <title>Given I am on the Login page URL "https://www.amazon.in/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864470108" stop="1564864472558" status="passed">
+                    <name>Then I click on sign in button and wait for sign in page</name>
+                    <title>Then I click on sign in button and wait for sign in page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864472559" stop="1564864472594" status="passed">
+                    <name>Then I should see Sign In Page</name>
+                    <title>Then I should see Sign In Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864472594" stop="1564864472984" status="passed">
+                    <name>When I enter username as "rohitnegi548@gmail.com"</name>
+                    <title>When I enter username as "rohitnegi548@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864472984" stop="1564864474344" status="passed">
+                    <name>And I Click on Continue button</name>
+                    <title>And I Click on Continue button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864474345" stop="1564864474489" status="passed">
+                    <name>And I enter password as "krt#576420"</name>
+                    <title>And I enter password as "krt#576420"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864474489" stop="1564864479103" status="passed">
+                    <name>And click on login button</name>
+                    <title>And click on login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864479103" stop="1564864479264" status="passed">
+                    <name>Then I am logged in</name>
+                    <title>Then I am logged in</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864479264" stop="1564864488457" status="passed">
+                    <name>And I search different "laptops" from the search bar</name>
+                    <title>And I search different "laptops" from the search bar</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment1" source="2d2921ff-c1d3-43e6-872a-65c76a32a84a-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Searching different products after login"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="A303598"/>
+                <label name="thread" value="17436@A303598.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1564864490843" stop="1564864519797" status="passed">
+            <name>Searching different products after login</name>
+            <title>Searching different products after login</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1564864495524" stop="1564864499805" status="passed">
+                    <name>Given I am on the Login page URL "https://www.amazon.in/"</name>
+                    <title>Given I am on the Login page URL "https://www.amazon.in/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864499805" stop="1564864502887" status="passed">
+                    <name>Then I click on sign in button and wait for sign in page</name>
+                    <title>Then I click on sign in button and wait for sign in page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864502888" stop="1564864502932" status="passed">
+                    <name>Then I should see Sign In Page</name>
+                    <title>Then I should see Sign In Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864502932" stop="1564864503232" status="passed">
+                    <name>When I enter username as "rohitnegi548@gmail.com"</name>
+                    <title>When I enter username as "rohitnegi548@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864503232" stop="1564864504497" status="passed">
+                    <name>And I Click on Continue button</name>
+                    <title>And I Click on Continue button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864504498" stop="1564864504679" status="passed">
+                    <name>And I enter password as "krt#576420"</name>
+                    <title>And I enter password as "krt#576420"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864504679" stop="1564864509005" status="passed">
+                    <name>And click on login button</name>
+                    <title>And click on login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864509006" stop="1564864509110" status="passed">
+                    <name>Then I am logged in</name>
+                    <title>Then I am logged in</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864509111" stop="1564864517624" status="passed">
+                    <name>And I search different "pendrive" from the search bar</name>
+                    <title>And I search different "pendrive" from the search bar</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment2" source="77534ed3-5114-42e3-bd58-3205df25e53b-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Searching different products after login"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="A303598"/>
+                <label name="thread" value="17436@A303598.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1564864519798" stop="1564864550547" status="passed">
+            <name>Searching different products after login</name>
+            <title>Searching different products after login</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1564864524495" stop="1564864528976" status="passed">
+                    <name>Given I am on the Login page URL "https://www.amazon.in/"</name>
+                    <title>Given I am on the Login page URL "https://www.amazon.in/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864528976" stop="1564864531408" status="passed">
+                    <name>Then I click on sign in button and wait for sign in page</name>
+                    <title>Then I click on sign in button and wait for sign in page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864531408" stop="1564864531456" status="passed">
+                    <name>Then I should see Sign In Page</name>
+                    <title>Then I should see Sign In Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864531456" stop="1564864531793" status="passed">
+                    <name>When I enter username as "rohitnegi548@gmail.com"</name>
+                    <title>When I enter username as "rohitnegi548@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864531793" stop="1564864533297" status="passed">
+                    <name>And I Click on Continue button</name>
+                    <title>And I Click on Continue button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864533298" stop="1564864533507" status="passed">
+                    <name>And I enter password as "krt#576420"</name>
+                    <title>And I enter password as "krt#576420"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864533507" stop="1564864538688" status="passed">
+                    <name>And click on login button</name>
+                    <title>And click on login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864538688" stop="1564864538759" status="passed">
+                    <name>Then I am logged in</name>
+                    <title>Then I am logged in</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1564864538759" stop="1564864548625" status="passed">
+                    <name>And I search different "led tv" from the search bar</name>
+                    <title>And I search different "led tv" from the search bar</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment3" source="174a1f3d-4f45-4048-91c9-c6b20dbd3b87-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Searching different products after login"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="A303598"/>
+                <label name="thread" value="17436@A303598.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

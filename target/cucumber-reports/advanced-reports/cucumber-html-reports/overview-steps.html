@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>MyProjectName</td>
+              <td>1</td>
+            <td>12 Apr 2019, 12:01</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Duration</th>
+            <th>Average</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">ServiceHooks.endTest(Scenario)</td>
+              <td>4</td>
+              <td class="duration" data-value="8561845873">8s 561ms</td>
+              <td class="duration" data-value="2140461468">2s 140ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ServiceHooks.initializeTest()</td>
+              <td>4</td>
+              <td class="duration" data-value="19759551885">19s 759ms</td>
+              <td class="duration" data-value="4939887971">4s 939ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">loginLogoutPageStepDefinitions.click_on_login_button()</td>
+              <td>4</td>
+              <td class="duration" data-value="24768950439">24s 768ms</td>
+              <td class="duration" data-value="6192237609">6s 192ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">loginLogoutPageStepDefinitions.i_Click_on_Continue_button()</td>
+              <td>4</td>
+              <td class="duration" data-value="5974199006">5s 974ms</td>
+              <td class="duration" data-value="1493549751">1s 493ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">loginLogoutPageStepDefinitions.i_Click_on_Sign_out()</td>
+              <td>1</td>
+              <td class="duration" data-value="1933109826">1s 933ms</td>
+              <td class="duration" data-value="1933109826">1s 933ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">loginLogoutPageStepDefinitions.i_Reduce_the_Quantity_of_the_macbook_pro_product_to_one_and_proceed_to_checkout()</td>
+              <td>1</td>
+              <td class="duration" data-value="71348836">071ms</td>
+              <td class="duration" data-value="71348836">071ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">loginLogoutPageStepDefinitions.i_Select_cart_from_home_and_remove_the_earlier_added_headphones()</td>
+              <td>1</td>
+              <td class="duration" data-value="4165110771">4s 165ms</td>
+              <td class="duration" data-value="4165110771">4s 165ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">loginLogoutPageStepDefinitions.i_add_first_availabe_headphone_to_cart()</td>
+              <td>1</td>
+              <td class="duration" data-value="20554903933">20s 554ms</td>
+              <td class="duration" data-value="20554903933">20s 554ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">loginLogoutPageStepDefinitions.i_am_already_logged_in()</td>
+              <td>4</td>
+              <td class="duration" data-value="857652278">857ms</td>
+              <td class="duration" data-value="214413069">214ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">loginLogoutPageStepDefinitions.i_am_on_the_Login_page_URL(String)</td>
+              <td>4</td>
+              <td class="duration" data-value="62282035757">1m 2s 282ms</td>
+              <td class="duration" data-value="15570508939">15s 570ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">loginLogoutPageStepDefinitions.i_choose_Electronincs_Headphones_and_headphones_list_out()</td>
+              <td>1</td>
+              <td class="duration" data-value="11594617115">11s 594ms</td>
+              <td class="duration" data-value="11594617115">11s 594ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">loginLogoutPageStepDefinitions.i_clear_cart_items_if_any()</td>
+              <td>1</td>
+              <td class="duration" data-value="5551029065">5s 551ms</td>
+              <td class="duration" data-value="5551029065">5s 551ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">loginLogoutPageStepDefinitions.i_click_on_sign_in_button_and_wait_for_sign_in_page()</td>
+              <td>4</td>
+              <td class="duration" data-value="11949898319">11s 949ms</td>
+              <td class="duration" data-value="2987474579">2s 987ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">loginLogoutPageStepDefinitions.i_enter_password_as(String)</td>
+              <td>4</td>
+              <td class="duration" data-value="704443850">704ms</td>
+              <td class="duration" data-value="176110962">176ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">loginLogoutPageStepDefinitions.i_enter_username_as(String)</td>
+              <td>4</td>
+              <td class="duration" data-value="1488460117">1s 488ms</td>
+              <td class="duration" data-value="372115029">372ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">loginLogoutPageStepDefinitions.i_got_log_out_from_the_application_and_land_on_sign_in_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="23211869">023ms</td>
+              <td class="duration" data-value="23211869">023ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">loginLogoutPageStepDefinitions.i_search_and_add_nd_available_item_to_cart(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="14558077672">14s 558ms</td>
+              <td class="duration" data-value="14558077672">14s 558ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">loginLogoutPageStepDefinitions.i_search_different_from_the_search_bar(String)</td>
+              <td>3</td>
+              <td class="duration" data-value="35091971989">35s 091ms</td>
+              <td class="duration" data-value="11697323996">11s 697ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">loginLogoutPageStepDefinitions.i_should_see_Sign_In_Page()</td>
+              <td>4</td>
+              <td class="duration" data-value="181290854">181ms</td>
+              <td class="duration" data-value="45322713">045ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>19</td>
+            <td>51</td>
+            <td class="duration">3m 50s 071ms</td>
+            <td class="duration">4s 511ms</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

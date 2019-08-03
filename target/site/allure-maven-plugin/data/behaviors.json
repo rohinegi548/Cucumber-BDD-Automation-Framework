@@ -1,0 +1,82 @@
+{
+  "features" : [ {
+    "title" : "As a Amazon user I should be able to login and logout with valid credentials",
+    "statistic" : {
+      "total" : 4,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "stories" : [ {
+      "uid" : "24e18f2788f15bd4",
+      "title" : "Login into the application with valid credentials",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 1
+      },
+      "testCases" : [ {
+        "uid" : "c64b0dcacfd90108",
+        "name" : "Login into the application with valid credentials",
+        "title" : "Login into the application with valid credentials",
+        "time" : {
+          "start" : 1564864411437,
+          "stop" : 1564864459569,
+          "duration" : 48132
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "9e0756278963cdff",
+      "title" : "Searching different products after login",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "6c351f2514930faa",
+        "name" : "Searching different products after login",
+        "title" : "Searching different products after login",
+        "time" : {
+          "start" : 1564864459576,
+          "stop" : 1564864490836,
+          "duration" : 31260
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "215067456f4409ae",
+        "name" : "Searching different products after login",
+        "title" : "Searching different products after login",
+        "time" : {
+          "start" : 1564864490843,
+          "stop" : 1564864519797,
+          "duration" : 28954
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "27da5f7fbd7cdaa",
+        "name" : "Searching different products after login",
+        "title" : "Searching different products after login",
+        "time" : {
+          "start" : 1564864519798,
+          "stop" : 1564864550547,
+          "duration" : 30749
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

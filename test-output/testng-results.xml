@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="225302" started-at="2019-04-12T05:40:09Z" finished-at="2019-04-12T05:43:54Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@7d9d1a19]" name="feature" class="com.cucumberFramework.testRunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="225302" started-at="2019-04-12T05:40:09Z" finished-at="2019-04-12T05:43:54Z">
+      <class name="com.cucumberFramework.testRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@7d9d1a19]" name="setUpClass" is-config="true" duration-ms="430" started-at="2019-04-12T11:10:09Z" finished-at="2019-04-12T11:10:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@7d9d1a19]" name="feature" duration-ms="224543" started-at="2019-04-12T11:10:09Z" description="Runs cucmber Features" data-provider="features" finished-at="2019-04-12T11:13:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[As a Amazon user I should be able to login and logout with valid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@7d9d1a19]" name="testDownClass" is-config="true" duration-ms="189" started-at="2019-04-12T11:13:54Z" finished-at="2019-04-12T11:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+      </class> <!-- com.cucumberFramework.testRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

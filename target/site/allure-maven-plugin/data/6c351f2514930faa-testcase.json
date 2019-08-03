@@ -1,0 +1,197 @@
+{
+  "uid" : "6c351f2514930faa",
+  "name" : "Searching different products after login",
+  "title" : "Searching different products after login",
+  "time" : {
+    "start" : 1564864459576,
+    "stop" : 1564864490836,
+    "duration" : 31260
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 9
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "75616540e63606ea",
+    "name" : "As a Amazon user I should be able to login and logout with valid credentials",
+    "title" : "As a amazon user I should be able to login and logout with valid credentials"
+  },
+  "steps" : [ {
+    "name" : "Given I am on the Login page URL \"https://www.amazon.in/\"",
+    "title" : "Given I am on the Login page URL \"https://www.amazon.in/\"",
+    "time" : {
+      "start" : 1564864464395,
+      "stop" : 1564864470108,
+      "duration" : 5713
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I click on sign in button and wait for sign in page",
+    "title" : "Then I click on sign in button and wait for sign in page",
+    "time" : {
+      "start" : 1564864470108,
+      "stop" : 1564864472558,
+      "duration" : 2450
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I should see Sign In Page",
+    "title" : "Then I should see Sign In Page",
+    "time" : {
+      "start" : 1564864472559,
+      "stop" : 1564864472594,
+      "duration" : 35
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I enter username as \"testusername\"",
+    "title" : "When I enter username as \"testusername\"",
+    "time" : {
+      "start" : 1564864472594,
+      "stop" : 1564864472984,
+      "duration" : 390
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I Click on Continue button",
+    "title" : "And I Click on Continue button",
+    "time" : {
+      "start" : 1564864472984,
+      "stop" : 1564864474344,
+      "duration" : 1360
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I enter password as \"testpassword\"",
+    "title" : "And I enter password as \"testpassword\"",
+    "time" : {
+      "start" : 1564864474345,
+      "stop" : 1564864474489,
+      "duration" : 144
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And click on login button",
+    "title" : "And click on login button",
+    "time" : {
+      "start" : 1564864474489,
+      "stop" : 1564864479103,
+      "duration" : 4614
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I am logged in",
+    "title" : "Then I am logged in",
+    "time" : {
+      "start" : 1564864479103,
+      "stop" : 1564864479264,
+      "duration" : 161
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I search different \"laptops\" from the search bar",
+    "title" : "And I search different \"laptops\" from the search bar",
+    "time" : {
+      "start" : 1564864479264,
+      "stop" : 1564864488457,
+      "duration" : 9193
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "attachment1",
+    "source" : "2d2921ff-c1d3-43e6-872a-65c76a32a84a-attachment.png",
+    "type" : "image/png",
+    "size" : 565750,
+    "uid" : "5ff590f84f08b388"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "As a Amazon user I should be able to login and logout with valid credentials"
+  }, {
+    "name" : "story",
+    "value" : "Searching different products after login"
+  }, {
+    "name" : "suite-name",
+    "value" : "As a Amazon user I should be able to login and logout with valid credentials"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "17436@A303598.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "A303598"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}
