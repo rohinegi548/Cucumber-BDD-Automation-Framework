@@ -1,8 +1,8 @@
 <h1># Cucumber-BDD-Automation-Framework</h1>
 <h2>Behavior Driven Development Cucumber - Selenium based automation framework including Allure reports</h2>
 
-<ul>This framework contains sample code containing:
-	<li>1 feature (feature file)</li></ul>
+<h2>This framework contains sample code containing:</h2>
+	<ul><li>1 feature (feature file)</li></ul>
 	<ul><li>2 Scenarios</li>
 	<li>Simple scenario login scenario and adding products to carts</li>
 	<li>Advance scenario where parameterization has been used (Scenario Outline examples) to search different types of products and listing out them</li></ul>
@@ -36,14 +36,14 @@
 <br>
 <ul>
 <li><a href = "https://github.com/rohinegi548/Cucumber-BDD-Automation-Framework/blob/master/images/cucumber-pretty1.PNG" title = "cucumber pretty and advanced">Cucumber-pretty summarized</a></li>
-<li><a href = "https://github.com/rohinegi548/Cucumber-BDD-Automation-Framework/blob/master/images/cucumber-pretty2.png" title = "cucumber pretty and advanced">Cucumber-pretty expanded</a></li>
+<li><a href = "https://github.com/rohinegi548/Cucumber-BDD-Automation-Framework/blob/master/images/cucucmber-pretty.pdf" title = "cucumber pretty and advanced">Cucumber-pretty expanded</a></li>
 </ul>
 
 <h2>Snapshots - Cucumber - Advanced - Report: See here </h2>
 <br>
 <ul>
 <li><a href = "https://github.com/rohinegi548/Cucumber-BDD-Automation-Framework/blob/master/images/cucumber-advanced2.PNG" title = "cucumber pretty and advanced">Cucumber-advance summarized</a></li>
-<li><a href = "https://github.com/rohinegi548/Cucumber-BDD-Automation-Framework/blob/master/images/cucumber-advance1.png" title = "cucumber pretty and advanced">Cucumber-advance expanded</a></li>
+<li><a href = "https://github.com/rohinegi548/Cucumber-BDD-Automation-Framework/blob/master/images/cucumber-advance.pdf" title = "cucumber pretty and advanced">Cucumber-advance expanded</a></li>
 </ul>
 
 <br>
