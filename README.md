@@ -109,11 +109,12 @@
 	</reporting>
 	
 <br><br>
-<h3>You will be able to locate the report in folder : "target\site\allure-maven-plugin", the "Index.html" file. 
+<h3>You will be able to locate the report in folder : "target\site\allure-maven-plugin", the "Index.html" file. </h3>
+
 <br>
 <img src = "https://github.com/rohinegi548/Cucumber-BDD-Automation-Framework/blob/master/images/allure-report.PNG" title = "allure report folder"/>
 <br><br><br>
-You can either open it through Firefox or on a local server. I had used "Jetty server", using this command: "mvn jetty:run". And then open url in your any browser "http://localhost:8080" and there you go.</h3>
+<h3>You can either open it through Firefox or on a local server. I had used "Jetty server", using this command: "mvn jetty:run". And then open url in your any browser "http://localhost:8080" and there you go.</h3>
 
 <b>MVN Jetty configuration is to be done in pom.xml if want to use it:</b>
 
